@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://geilige.cn</id>
     <title>geilige</title>
-    <updated>2022-05-05T08:32:20.006Z</updated>
+    <updated>2022-05-05T09:37:02.301Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://geilige.cn"/>
     <link rel="self" href="https://geilige.cn/atom.xml"/>
@@ -10,4 +10,32 @@
     <logo>https://geilige.cn/images/avatar.png</logo>
     <icon>https://geilige.cn/favicon.ico</icon>
     <rights>All rights reserved 2022, geilige</rights>
+    <entry>
+        <title type="html"><![CDATA[让WiFi翻墙]]></title>
+        <id>https://geilige.cn/post/rang-wifi-fan-qiang/</id>
+        <link href="https://geilige.cn/post/rang-wifi-fan-qiang/">
+        </link>
+        <updated>2022-05-05T08:33:52.000Z</updated>
+        <content type="html"><![CDATA[<p>背景<br>
+科学上网（翻墙）的方式是多种多样的，常见的<br>
+1.安装clash等软件<br>
+2.软路由<br>
+本人因为想玩tiktok，为了降低被tiktok识别，想连接WiFi就能翻墙，但是又没有软路由，只有一台闲置的台式机（带WiFi），家里的路由器很尴尬，新的是荣耀，老的是tplink，都没法刷openwrt，我想连上wifi，并且不需要手机填写代理ip和端口就能直接快乐上网，怎么做？？？</p>
+<p>致谢：<br>
+如何给热点翻墙  https://qiyuan-z.github.io/2020/02/16/%E5%A6%82%E4%BD%95%E7%BB%99%E7%83%AD%E7%82%B9%E7%BF%BB%E5%A2%99/</p>
+<p>准备工作<br>
+一台带wifi的Windows10<br>
+netch Github地址：https://github.com/netchx/Netch</p>
+<p>第一步<br>
+打开程序后，选中 “订阅” &gt; “管理订阅链接”<br>
+粘贴服务商提供的订阅链接到左下角的链接，备注随便填写，点击添加，然后点击保存<br>
+也可以从剪切板添加节点<br>
+选择Bypass LAN and China #绕过局域网和大陆，点击启动，即可<br>
+网络适配器中多出一个 aioCloud 的连接</p>
+<p>第二步<br>
+启动热点，会发现在网络适配器中多出一个本地连接，假设叫 本地连接7</p>
+<p>第三步<br>
+右键aioCloud 的连接，属性—共享，选择 允许其他网络用户通过此计算机的Internet连接来连接，添加热点所对应的本地连接7，此时，热点即可成功翻墙</p>
+]]></content>
+    </entry>
 </feed>
